@@ -59,7 +59,7 @@ $(document).ready(function () {
         del.on('click', function () {
             var idTmp = $(this).attr('id');
             var myHeaders = new Headers({
-                'content-type': 'aplication/json'
+                'content-type': 'application/json'
             });
 
             var myInit = {
@@ -96,7 +96,7 @@ $(document).ready(function () {
         }
 
         var myHeaders = new Headers({
-            'content-type': 'aplication/json'
+            'content-type': 'application/json'
         })
 
         var myInit = {
